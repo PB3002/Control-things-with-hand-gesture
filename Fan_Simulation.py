@@ -1,4 +1,5 @@
 from tkinter import *
+import tkinter as tk
 from PIL import Image, ImageTk
 
 class App:
@@ -38,6 +39,7 @@ class App:
             self.label.configure(image=self.photo)
             self.master.after(50, self.animate)
 
-root = Tk()
+root = tk.Tk()
+root.title("Fan Simulation") 
 app = App(root)
 root.mainloop()
