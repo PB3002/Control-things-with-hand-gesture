@@ -11,6 +11,7 @@ def btn_mouse():
     
 def btn_volume():
     print("Button volume Clicked")
+    os.system('python ./Volume_Control.py')
     
 def btn_fan():
     print("Button fan Clicked")
