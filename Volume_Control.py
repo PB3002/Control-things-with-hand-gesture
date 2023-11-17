@@ -13,8 +13,8 @@ mp_hands = mp.solutions.hands
 devices = AudioUtilities.GetSpeakers()
 interface = devices.Activate(IAudioEndpointVolume._iid_, CLSCTX_ALL, None)
 volume = cast(interface, POINTER(IAudioEndpointVolume))
-volRange = volume.GetVolumeRange()
-minVol , maxVol , volBar, volPer= volRange[0] , volRange[1], 400, 0
+
+minVol , maxVol , volBar, volPer= -20, 0 , 400, 0
 
 cap = cv2.VideoCapture(0)
 
@@ -56,7 +56,7 @@ with mp_hands.Hands(min_detection_confidence=0.5, min_tracking_confidence=0.5) a
             cv2.line(img, (x1,y1),(x2,y2),(255,0,255),3)
             cv2.circle(img,(cx,cy),15,(255,0,255),cv2.FILLED)
 
-            if d < 50:
+            if d < 25:
                  cv2.line(img,(x1,y1),(x2,y2),(0,0,255),3)
 
             vol = np.interp(d, [25, 270], [minVol, maxVol])
