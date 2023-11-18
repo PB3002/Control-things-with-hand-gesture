@@ -1,5 +1,10 @@
 # CV-hand-gesture-house-control
-<img title="" src="" alt="" width="380" data-align="center">
+<p align="center">
+  <img src=".github/media/PBLogo.png" width="210">
+  <img src=".github/media/dance_foot.gif" width="210">
+  <br>
+  <sup></sup>
+</p>
 
 ## ✅About
 
