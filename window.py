@@ -8,6 +8,7 @@ def btn_light():
     
 def btn_mouse():
     print("Button mouse Clicked")
+    os.system('python ./Mouse_Control.py')
     
 def btn_volume():
     print("Button volume Clicked")
