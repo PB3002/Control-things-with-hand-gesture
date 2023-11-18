@@ -1,5 +1,6 @@
 <h1 align="center">OpenCV Hand Gesture Control Things</h1>
 <p align="center"><img src=".github/media/PBLogo.png" width="210"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <img src=".github/media/VLULogo.png" width="75"></p>
+
 ## ✅About
 
 This is a personal project and the final project for the Computer Vision course at Van Lang University, which I worked on alone. The project is a software that has 4 functions that can be controlled by hand gestures: light bulb, computer speaker, computer mouse, and fan. 
