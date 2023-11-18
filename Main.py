@@ -25,13 +25,17 @@ window.geometry("450x400")
 window.configure(bg = "#ffffff")
 canvas = Canvas(
     window,
-    bg = "#ffffff",
     height = 400,
     width = 450,
     bd = 0,
     highlightthickness = 0,
     relief = "ridge")
 canvas.place(x = 0, y = 0)
+
+background_img = PhotoImage(file = f"./GUI_cache/background.png")
+background = canvas.create_image(
+    225.0, 200.0,
+    image=background_img)
 
 img0 = PhotoImage(file = f"./GUI_cache/img0.png")
 b0 = Button(
@@ -90,6 +94,12 @@ canvas.create_text(
     text = "Control it with just a Hand",
     fill = "#001739",
     font = ("BeVietnamPro-Bold", int(24.0)))
+
+photo = PhotoImage(file='./GUI_cache/img4.png')
+canvas2 = Canvas(window, width=56, height=67,relief = "ridge")
+canvas2.pack()
+canvas2.create_image(30, 37, image=photo,anchor=CENTER)
+canvas2.place(x=194.2,y=179)
 
 window.resizable(False, False)
 window.bind('<Escape>', lambda e: window.quit()) 
