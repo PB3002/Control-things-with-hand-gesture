@@ -1,5 +1,10 @@
 <h1 align="center">OpenCV Hand Gesture Control Things</h1>
-<p align="center"><img src=".github/media/PBLogo.png" width="210"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <img src=".github/media/VLULogo.png" width="75"></p>
+<p align="center">
+  <img src=".github/media/mediapipe.webp" width="550"> 
+  <img src=".github/media/PBLogo.png" width="210"> 
+  &nbsp;&nbsp;&nbsp;
+  <img src=".github/media/VLULogo.png" width="75">
+</p>
 
 <p align="center">
   <img src="https://visitor-badge.feriirawann.repl.co?username=pb3002&repo=hand-gesture-control-things-vn-vlu&style=for-the-badge&contentType=svg&color=brightgreen&logo=cbs" />
