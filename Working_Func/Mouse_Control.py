@@ -57,8 +57,6 @@ with mp_hands.Hands(min_detection_confidence=0.5, min_tracking_confidence=0.5,ma
         if len(lmList)!=0:
             x1,y1 = lmList[8][1], lmList[8][2]
             x2,y2 = lmList[12][1], lmList[12][2]
-            cx, cy = (x1+x2)//2,(y1+y2)//2
-            d = math.sqrt((x2-x1)**2+(y2-y1)**2)
 
             #Get fingers
             if handType[0] == 'Left':
@@ -72,24 +70,24 @@ with mp_hands.Hands(min_detection_confidence=0.5, min_tracking_confidence=0.5,ma
                 else: fingers.append(0)
 
             #Check index finger is moving in zone.
-            if x1 in range(frameR,wCam-frameR) and y1 in range(frameR-50,hCam-frameR-50):
-                x3= np.interp(x1,(frameR,wCam-frameR),(0,wScrn))
-                y3= np.interp(y1,(frameR-50,hCam-frameR-50),(0,hScrn))
+            if x2 in range(frameR,wCam-frameR) and y2 in range(frameR-50,hCam-frameR-50):
+                x3= np.interp(x2,(frameR,wCam-frameR),(0,wScrn))
+                y3= np.interp(y2,(frameR-50,hCam-frameR-50),(0,hScrn))
                 #Smoothen Values
                 clocX = plocX + (x3-plocX)/smoothening
                 clocY = plocY + (y3-plocY)/smoothening
-                
+
                 #Move mouse
-                if fingers[1]==1 and fingers[2]==0:
+                if fingers[0]==0 and fingers[1]==1 and fingers[2]==1 and fingers[3]==0 and fingers[4]==0:
                     pyautogui.moveTo(clocX,clocY,duration=0)
-                    cv2.circle(img,(x1,y1),10,(255,0,255),cv2.FILLED)
+                    cv2.circle(img,(x2,y2),10,(255,0,255),cv2.FILLED)
                     plocX,plocY = clocX,clocY
 
                 #Mouse click
-                if fingers[1]==1 and fingers[2]==1:
-                    if d<25: 
-                        cv2.circle(img,(cx,cy),10,(0,255,0),cv2.FILLED)
-                        pyautogui.click()
+            if fingers[1]==0 and fingers[2]==1:
+                cv2.circle(img,(x2,y2),10,(0,255,0),cv2.FILLED)
+                pyautogui.click()
+
         cv2.imshow('Mouse Controler', img)
         if cv2.waitKey(1) & 0xFF == 27:
             break
