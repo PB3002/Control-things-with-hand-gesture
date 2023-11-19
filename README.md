@@ -3,7 +3,7 @@
   <img src=".github/media/mediapipe.png" width="550"> 
   <img src=".github/media/PBLogo.png" width="210"> 
   &nbsp;&nbsp;&nbsp;
-  <img src=".github/media/VLULogo.png" width="75">
+  <img src=".github/media/VLULogo.png" width="5">
 </p>
 
 <p align="center">
@@ -77,7 +77,7 @@ As you mentioned earlier above, this program includes 4 functions, and each func
 
 To control the light bulb function, you need to know that each light bulb corresponds to one of your fingers. When you raise a finger, the light bulb depends on it will turn on, and when you lower that finger, the light bulb will turn off.
 
-**Quy định về đèn như sau:**
+**Light Rule:**
 
 | Finger | Light color |
 |:------ | -----------:|
@@ -89,7 +89,7 @@ To control the light bulb function, you need to know that each light bulb corres
 
 📍Example:
 
-<img title="" src="file:///C:/Users/ACER/Downloads/house.png" alt="" width="547" data-align="center">
+<img title="" src=".github\media\light_control_example.gif" alt="" width="547" data-align="center">
 
 ### 🔊Volume Control (max_num_hands=2):
 
@@ -97,20 +97,15 @@ This function allows you to control the overall sound on your computer. By raisi
 
 📍Example:
 
-<img title="" src="file:///C:/Users/ACER/Downloads/house.png" alt="" data-align="center" width="547">
+<img title="" src=".github\media\volume_control_example.gif" alt="" data-align="center" width="547">
 
 ### 🖱️Mouse Control (max_num_hands=1):
 
-When you activate this function, a blue rectangle frame will appear on your webcam. This blue frame represents the resolution of the screen you are using. To control the mouse cursor, simply raise and move your index finger within the frame. And if you want to click the mouse, you can use your middle finger to quickly touch your index finger at the position where you want to click.
+When you activate this function, a blue rectangle frame will appear on your webcam. This blue frame represents the resolution of the screen you are using. To control the mouse cursor, simply raise and move your index with middle finger in the frame. If you want to click the mouse, you can bend your index finger quickly at the position where you want to click. Just pretend you are clicking a real computer mouse. :]]
 
 📍Example:
 
-<p align="center">
-  <img src=".github/media/dance_foot.gif" width="210">
-  <img src=".github/media/dance_foot.gif" width="210">
-  <br>
-  <sup></sup>
-</p>
+<img title="" src=".github\media\mouse_control_example.gif" alt="" data-align="center" width="547">
 
 ### 𖣘 Fan Control (max_num_hands=1):
 
@@ -118,7 +113,7 @@ For the fan control function, all you need to do is clench your hand to turn off
 
 📍Example:
 
-<img title="" src="file:///C:/Users/ACER/Downloads/house.png" alt="" data-align="center" width="547">
+<img title="" src=".github\media\fan_control_example.gif" alt="" data-align="center" width="547">
 
 ## ✍️Author:
 
