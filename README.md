@@ -3,7 +3,7 @@
   <img src=".github/media/mediapipe.png" width="550"> 
   <img src=".github/media/PBLogo.png" width="210"> 
   &nbsp;&nbsp;&nbsp;
-  <img src=".github/media/VLULogo.png" width="5">
+  <img src=".github/media/VLULogo.png" width="75">
 </p>
 
 <p align="center">
