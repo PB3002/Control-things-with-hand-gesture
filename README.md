@@ -2,7 +2,18 @@
 <p align="center"><img src=".github/media/PBLogo.png" width="210"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <img src=".github/media/VLULogo.png" width="75"></p>
 
 <p align="center">
-  <img src="https://visitor-badge.feriirawann.repl.co?username=pb3002&repo=hand-gesture-control-things-vn-vlu&style=for-the-badge&contentType=svg" />
+  <img src="https://visitor-badge.feriirawann.repl.co?username=pb3002&repo=hand-gesture-control-things-vn-vlu&style=for-the-badge&contentType=svg&color=brightgreen&logo=cbs" />
+  
+  <a href="https://www.linkedin.com/in/nguyenphuc-mrp/">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"></a>
+  
+  <a href="https://www.facebook.com/phuc.2174802010773">
+    <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook"></a>
+    
+  <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSHvbQxNwkWrmstDrLfwbmwrCXwrRXtjZqKfkwSpmdJSzBKjlwQhJDNbRZvgskkCpXjnPgKq">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+  </a>
+  
   <br>
   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
   <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
