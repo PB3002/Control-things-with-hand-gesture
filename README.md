@@ -1,6 +1,13 @@
 <h1 align="center">OpenCV Hand Gesture Control Things</h1>
 <p align="center"><img src=".github/media/PBLogo.png" width="210"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <img src=".github/media/VLULogo.png" width="75"></p>
 
+<p align="center">
+  <img src="https://vbr.wocr.tk/badge?page_id=hand-gesture-control-things-vn-vlu&color=590d22&style=for-the-badge&logo=Github&hit=false" />
+  <br>
+  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
+  <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+</p>
+
 ## ✅About
 
 This is a personal project and the final project for the Computer Vision course at Van Lang University, which I worked on alone. The project is a software that has 4 functions that can be controlled by hand gestures: light bulb, computer speaker, computer mouse, and fan. 
@@ -14,7 +21,7 @@ Here are some important parameters of Mediapipe that we need to pay attention to
     <td><code><b>max_num_hands</b></code>: The maximum number of hands can be detected by the GestureRecognizer.</td>
   </tr>
   <tr>
-    <td><code><b>min_detection_confidence</b></code>: The minimum confidence score for the hand detection to be considered successful in palm detection model.</td>
+    <td><code><b>min_detection_confidence</b></code>: The minimum confidence score for the hand detection to be considered successful.</td>
   </tr>
   <tr>
     <td><code><b>min_tracking_confidence</b></code>: The minimum confidence score for the hand tracking to be considered successful.</td>
