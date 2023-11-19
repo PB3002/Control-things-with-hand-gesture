@@ -73,6 +73,8 @@ After you’ve installed the requirements, you can clone this repository or down
 
 As you mentioned earlier above, this program includes 4 functions, and each function has a different usage.
 
+REMEMBER: If you want escape the program, just simply press `Esc` on your keyboard.
+
 ### 💡Light Bulb Control (max_num_hands=1):
 
 To control the light bulb function, you need to know that each light bulb corresponds to one of your fingers. When you raise a finger, the light bulb depends on it will turn on, and when you lower that finger, the light bulb will turn off.
