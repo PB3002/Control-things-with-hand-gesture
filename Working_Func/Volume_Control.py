@@ -14,6 +14,7 @@ mp_hands = mp.solutions.hands
 devices = AudioUtilities.GetSpeakers()
 interface = devices.Activate(IAudioEndpointVolume._iid_, CLSCTX_ALL, None)
 volume = cast(interface, POINTER(IAudioEndpointVolume))
+print(volume.GetVolumeRange())
 minVol , maxVol , volBar, volPer= -20, 0 , 400, 0
 
 cap = cv2.VideoCapture(0)
@@ -41,6 +42,7 @@ with mp_hands.Hands(min_detection_confidence=0.5, min_tracking_confidence=0.5) a
                     cx,cy = int(lm.x*w),int(lm.y*h)
                     lmList.append([id,cx,cy])
                 mp_drawing.draw_landmarks(img, hand_landmarks, mp_hands.HAND_CONNECTIONS)
+
         #Get cordinate of the thumb and the index finger
         if len(lmList)!=0:
             x1,y1 = lmList[4][1], lmList[4][2]
@@ -59,7 +61,7 @@ with mp_hands.Hands(min_detection_confidence=0.5, min_tracking_confidence=0.5) a
                 vol = -96
                 cv2.line(img,(x1,y1),(x2,y2),(0,0,255),3)
             else:
-                vol = np.interp(d, [25, 270], [minVol, maxVol])
+                vol = np.interp(d, [50, 270], [minVol, maxVol])
 
             volume.SetMasterVolumeLevel(vol, None)
             volBar = np.interp(d, [50, 270], [400, 150])
