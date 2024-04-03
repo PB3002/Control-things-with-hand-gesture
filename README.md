@@ -91,7 +91,7 @@ To control the light bulb function, you need to know that each light bulb corres
 
 📍Example:
 
-<img title="" src=".github\media\light_control_example.gif" alt="" width="547" data-align="center">
+<img title="" src=".github\media\light_control_example.gif" alt="" width="547" class="center">
 
 ### 🔊Volume Control (max_num_hands=2):
 
@@ -99,7 +99,7 @@ This function allows you to control the overall sound on your computer. By raisi
 
 📍Example:
 
-<img title="" src=".github\media\volume_control_example.gif" alt="" data-align="center" width="547">
+<img title="" src=".github\media\volume_control_example.gif" alt="" class="center" width="547">
 
 ### 🖱️Mouse Control (max_num_hands=1):
 
@@ -107,7 +107,7 @@ When you activate this function, a blue rectangle frame will appear on your webc
 
 📍Example:
 
-<img title="" src=".github\media\mouse_control_example.gif" alt="" data-align="center" width="547">
+<img title="" src=".github\media\mouse_control_example.gif" alt="" class="center" width="547">
 
 ### 𖣘 Fan Control (max_num_hands=1):
 
@@ -115,7 +115,7 @@ For the fan control function, all you need to do is clench your hand to turn off
 
 📍Example:
 
-<img title="" src=".github\media\fan_control_example.gif" alt="" data-align="center" width="547">
+<img title="" src=".github\media\fan_control_example.gif" alt="" class="center" width="547">
 
 ## ✍️Author:
 
