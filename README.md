@@ -90,32 +90,36 @@ To control the light bulb function, you need to know that each light bulb corres
 | Pinky  | Orange 🟧   |
 
 📍Example:
-
-<img title="" src=".github\media\light_control_example.gif" alt="" width="547" class="center">
+<p align="center">
+<img title="" src=".github\media\light_control_example.gif" alt="" width="547">
+</p>
 
 ### 🔊Volume Control (max_num_hands=2):
 
 This function allows you to control the overall sound on your computer. By raising your thumb and index finger, you can increase or decrease the volume according to the distance you create between these two fingers. The farther apart your fingers are, the louder the volume will be, and vice versa.
 
 📍Example:
-
+<p align="center">
 <img title="" src=".github\media\volume_control_example.gif" alt="" class="center" width="547">
+</p>
 
 ### 🖱️Mouse Control (max_num_hands=1):
 
 When you activate this function, a blue rectangle frame will appear on your webcam. This blue frame represents the resolution of the screen you are using. To control the mouse cursor, simply raise and move your index with middle finger in the frame. If you want to click the mouse, you can bend your index finger quickly at the position where you want to click. Just pretend you are clicking a real computer mouse. :]]
 
 📍Example:
-
+<p align="center">
 <img title="" src=".github\media\mouse_control_example.gif" alt="" class="center" width="547">
+</p>
 
 ### 𖣘 Fan Control (max_num_hands=1):
 
 For the fan control function, all you need to do is clench your hand to turn off the fan and open all 5 fingers to turn on the fan. (Note: All 5 fingers must be open for the fan to turn on!)
 
 📍Example:
-
+<p align="center">
 <img title="" src=".github\media\fan_control_example.gif" alt="" class="center" width="547">
+</p>
 
 ## ✍️Author:
 
