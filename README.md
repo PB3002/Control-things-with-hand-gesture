@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://visitor-badge.feriirawann.repl.co?username=pb3002&repo=hand-gesture-control-things-vn-vlu&style=for-the-badge&contentType=svg&color=brightgreen&logo=cbs" />
+  <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FPB3002%2Fhand-gesture-control-things-vn-vlu"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FPB3002%2Fhand-gesture-control-things-vn-vlu&label=VIEW&countColor=%2337d67a" /></a>
   
   <a href="https://www.linkedin.com/in/nguyenphuc-mrp/">
     <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"></a>
@@ -96,7 +96,7 @@ To control the light bulb function, you need to know that each light bulb corres
 
 ### 🔊Volume Control (max_num_hands=2):
 
-This function allows you to control the overall sound on your computer. By raising your thumb and index finger, you can increase or decrease the volume according to the distance you create between these two fingers. The farther apart your fingers are, the louder the volume will be, and vice versa.
+This function allows you to control the overall sound on your computer. By raising your thumb and index finger, you can increase or decrease the volume according to the distance you create between these two fingers. The farther apart your fingers are, the louder the volume will be, and vice versa. (This function can work on both hands)
 
 📍Example:
 <p align="center">
